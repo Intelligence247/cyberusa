@@ -38,7 +38,7 @@
 
         }
 
-        .header {
+        .header2 {
             display: flex;
             justify-content: space-between;
             padding: 2rem;
@@ -63,7 +63,7 @@
 
 
 
-        img {
+        form img {
             position: absolute;
             border-radius: 50%;
             height: 3rem;
@@ -102,10 +102,6 @@
 
         }
 
-        /* .last input {
-    border: none;
-} */
-
         .last label {
             margin-bottom: 0.5rem;
         }
@@ -126,38 +122,79 @@
             border-bottom: 1.7px solid #9c9f9f;
         }
 
+
+        .header {
+            background-color: black;
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            padding-left: 4rem;
+            height: 6rem;
+            width: 100vw;
+        }
+
+        .header img {
+            width: 18rem;
+        }
+
+        .navlinks,
+        a {
+            display: flex;
+            gap: 2rem;
+            font-size: 20px;
+            text-decoration-line: none;
+            color: white;
+        }
+
         /* #9c9f9f */
     </style>
 </head>
-<main>
-    <div class="header">
-        <h2>Account settings</h2>
-        <p class="entity">&#215;</p>
-    </div>
-    <form>
-        <img src="./media/avatar.jpg" alt="">
-        <div class="user"><label>USERNAME</label><input type="text" placeholder="Enter your username"></div>
-        <div class="fla">
-            <label>FIRST NAME</label>
-            <label>LAST NAME</label>
-        </div>
-        <div class="flainput">
-            <input type="text" placeholder="Enter your last name">
-            <input type="text" placeholder="Enter your first name">
-        </div>
-        <label>Email</label><input type="text" placeholder="Enter your email">
-        <div class="last"> <label>Bio</label><input type="text" placeholder="Enter your username"></div>
-        <textarea name="about" id="about" cols="30" rows="5"></textarea>
-    </form>
-    <div class="footer">
-        <p>Cancel</p>
-        <p>Save</p>
-    </div>
-
-</main>
 
 <body>
 
-</body>
+
+
+    <header class="header">
+        <img src="./media/cyberlogo.png" alt="">
+        <nav class="navlinks">
+            <a href="./index.html">Home</a>
+            <a href="website-design.html">Website Design</a>
+            <a href="web-hosting.html">Web hosting plans <span>▼</span></a>
+            <a href="contact-us.html">Contact us</a>
+        </nav>
+    </header>
+
+
+
+    <main>
+        <div class="header2">
+            <h2>Account settings</h2>
+            <p class="entity">&#215;</p>
+        </div>
+        <form>
+            <img src="./media/avatar.jpg" alt="">
+            <div class="user"><label>USERNAME</label><input type="text" placeholder="Enter your username"></div>
+            <div class="fla">
+                <label>FIRST NAME</label>
+                <label>LAST NAME</label>
+            </div>
+            <div class="flainput">
+                <input type="text" placeholder="Enter your last name">
+                <input type="text" placeholder="Enter your first name">
+            </div>
+            <label>Email</label><input type="text" placeholder="Enter your email">
+            <div class="last"> <label>Bio</label><input type="text" placeholder="Enter your username"></div>
+            <textarea name="about" id="about" cols="30" rows="5"></textarea>
+        </form>
+        <div class="footer">
+            <p>Cancel</p>
+            <p>Save</p>
+        </div>
+
+    </main>
+
+    <body>
+
+
 
 </html>

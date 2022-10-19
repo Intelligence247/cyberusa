@@ -25,7 +25,7 @@
             margin-top: 5rem;
         }
 
-        header {
+        .header1 {
             padding: 1rem 1.8rem 1rem;
             color: #8698a7;
             display: flex;
@@ -105,14 +105,55 @@
         .purple2 {
             background-color: #ae5989;
         }
+
+
+
+        .header {
+            background-color: black;
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            padding-left: 4rem;
+            height: 6rem;
+        }
+
+        .header img {
+            width: 18rem;
+        }
+
+        .navlinks,
+        a {
+            display: flex;
+            gap: 2rem;
+            font-size: 20px;
+            text-decoration-line: none;
+            color: white;
+        }
+
+        .entity {
+            font-size: 24px;
+            font-weight: 900;
+            cursor: pointer;
+        }
     </style>
 </head>
 
 <body>
 
+
+    <header class="header">
+        <img src="./media/cyberlogo.png" alt="">
+        <nav class="navlinks">
+            <a href="./index.html">Home</a>
+            <a href="website-design.html">Website Design</a>
+            <a href="web-hosting.html">Web hosting plans <span>▼</span></a>
+            <a href="contact-us.html">Contact us</a>
+        </nav>
+    </header>
+
     <main>
 
-        <header>
+        <header class="header1">
             <p>Thursday 7th</p>
             <p>January 2016</p>
         </header>

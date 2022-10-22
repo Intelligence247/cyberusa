@@ -4,6 +4,10 @@
 - Clone or download this repository and run with a local server of open `index.html` with your favorite browser
 ## Preview
 [demo](https://rawcdn.githack.com/Intelligence247/cyberusa/af4401825e1d10111ec6e97ab74da7968ac6bacb/index.html)
+
+![screenshot](/media/sketch.png)
+![screenshot](/media/sketch2.png)
+![screenshot](/media/sketch3.png)
 ## Prequisite 
 - Your browser version must be recent for better a experience
 ## Features
@@ -14,8 +18,10 @@
 ## Tech/framework used
 - HTML 
 - CSS
-## Contacr 
+## Contact
 If you want to contact me you can reach me at uthmanabdullahi2020@gmail.com or https://github.com/intelligence247
 ## Additional info
 - This is one of series of project for the @CodeVillage.org
 - This is not meant for production. it's for learning purpose only
+
+[def]: /media/sketch3.png
